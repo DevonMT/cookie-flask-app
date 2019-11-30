@@ -1,28 +1,17 @@
 from flask import Flask
 from flask_bootstrap import Bootstrap
 
+from views.home import home
+
 
 def create_app():
     app = Flask(__name__)
-    config(app)
-    init_extensions(app)
-    register_blueprints(app)
-    return app
+    app.config.from_pyfile("settings.cfg")
 
-
-def init_extensions(app):
     Bootstrap(app)
 
-
-def register_blueprints(app):
-    from .views.home import home
-
-    app.register_blueprints(home)
-
-
-def config(app):
-    app.config.from_pyfile("settings.py")
-    app.config.from_envvar("{{cookiecutter.project_slug.upper()}}_SETTINGS}}")
+    app.register_blueprint(home)
+    return app
 
 
 if __name__ == "__main__":

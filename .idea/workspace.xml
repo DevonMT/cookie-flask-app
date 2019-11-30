@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f704da0-0ee2-4799-821f-a5bf9601da0e" name="Default Changelist" comment="" />
+    <list default="true" id="0f704da0-0ee2-4799-821f-a5bf9601da0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flask-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/settings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/settings.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/static/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/static/styles/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/views/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/views/home.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +26,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UKzJ3mgbFz2R9IzkQ1JQbwkJpF" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
@@ -45,10 +60,22 @@
       <option name="presentableId" value="Default" />
       <updated>1575119999389</updated>
       <workItem from="1575120001991" duration="835000" />
+      <workItem from="1575149366636" duration="556000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
