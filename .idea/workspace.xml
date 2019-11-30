@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f704da0-0ee2-4799-821f-a5bf9601da0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/settings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/settings.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/forms/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/models/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/prod_settings.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/settings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_slug}}/dev_settings.cfg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -21,11 +29,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UKzJ3mgbFz2R9IzkQ1JQbwkJpF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/{{cookiecutter.project_slug}}/app.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -40,6 +51,37 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Flask" type="Python.FlaskServer" nameIsGenerated="true">
+      <option name="flaskEnv" />
+      <module name="flask-app" />
+      <option name="target" value="C:\Users\PH515-51-75L8\Desktop\cookies\flask-app\{{cookiecutter.project_slug}}\app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="CONFIG_FILENAME" value="&quot;prod_settings.cfg&quot;" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\PH515-51-75L8\.virtualenvs\flask-app-fTkSboIX\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575119999389</updated>
       <workItem from="1575120001991" duration="835000" />
-      <workItem from="1575149366636" duration="949000" />
+      <workItem from="1575149366636" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="working on auto secret key">
       <created>1575150094098</created>
@@ -60,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575150094098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="failed auto secret key, resetting">
+      <created>1575150334200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575150334200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +128,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working on auto secret key" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on auto secret key" />
+    <MESSAGE value="failed auto secret key, resetting" />
+    <option name="LAST_COMMIT_MESSAGE" value="failed auto secret key, resetting" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flask_app$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1575151245887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
